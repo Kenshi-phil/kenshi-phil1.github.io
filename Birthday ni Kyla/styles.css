@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: rgb(112, 95, 70);
+}
+
+
+.interface-container{
+    background: url(Pictures/parchment.jpg);
+    border: 1px solid black;
+    max-width: 70%;
+    margin: 10%;
+    padding: 1rem;
+    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.interface-container.hover{
+    background: url(Pictures/parchment.jpg);
+    border: 1px solid black;
+    max-width: 70%;
+    margin: 10%;
+    padding: 1rem;
+    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.interface-container h1{
+
+}
+
+.message{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    
+}
+
+.message p{
+    margin-bottom: 4%;
+    line-height: 1.8rem
+}
+
+.start-btn{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color:rgb(124, 6, 6) ;
+    color:white;
+    margin-bottom: 2rem;
+}
+
+.start-btn:hover{
+    color: red;
+    transform: scale(110%);
+    background: rgb(29, 4, 4);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:red
+}
+
+.continue-btn[hidden]{
+    display: none;
+}
+
+.continue-btn{
+   
+    justify-self: center;
+    display: block;
+}
+
+.mystery{
+    justify-content: center;
+    
+
+.submit-btn, .continue-btn{
+    background: rgb(119, 73, 35);
+    color: rgb(250, 0, 0);
+    padding: 0.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+.submit-btn {
+    justify-self: center;
+    margin-bottom: 1rem;
+    
+}
+.continue-btn{
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+}
+
+.answer-box{
+    padding: 0.2rem;
+    background:rgb(250, 208, 160);
+    margin-bottom: 1rem;
+    
+}
